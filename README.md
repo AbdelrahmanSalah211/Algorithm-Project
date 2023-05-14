@@ -29,6 +29,13 @@ if the job has already assigned to the job, we won't add its profit
 finally,we return 
 
 
+
+![alt text](https://github.com/AbdelrahmanSalah211/Algorithm-Project/tree/master/illustrative%20photos/illustrative1.png)
+
+
+
+
+
 ### Second Problem
 You are given a list of N jobs with their start time, end time, and the profit you can earn by doing that job. Your task is to find the maximum profit you can earn
 by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a job that ends at time X, you will be able to start another job that starts at time X.
