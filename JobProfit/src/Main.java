@@ -14,8 +14,7 @@ public class Main {
         // and store them in ascending order according to the value of key
         TreeMap<Integer, Integer> startTimeIndex = new TreeMap<Integer, Integer>();
         for(int i=job.length-1;i>=0;i--){
-            int nextnonoverlappingIndex=java.util.Optional.ofNullable(
-                    startTimeIndex.ceilingEntry(job[i][1])).map(e->e.getValue()).orElse(job.length);
+            int nextnonoverlappingIndex=java.util.Optional.ofNullable(startTimeIndex.ceilingEntry(job[i][1])).map(e->e.getValue()).orElse(job.length);
             optimalProfit[i]=Math.max(optimalProfit[i+1],job[i][2]+optimalProfit[nextnonoverlappingIndex]);
             startTimeIndex.put(job[i][0],i);
         }
