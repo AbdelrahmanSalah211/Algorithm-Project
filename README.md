@@ -5,10 +5,10 @@
   ## Contributers
   
   |[First Problem](#first-problem)|[Second Problem](#second-problem)|
-  |:-----------|:-----------------|
-  |Ragab Hassan |Samer Adel       |
-  |Aya Mohamed  |Abdelrahman Salah|
-  |             |Omar Tarek       |
+  |:------------------------------|:--------------------------------|
+  |Ragab Hassan                   |Samer Adel                       |
+  |Aya Mohamed                    |Abdelrahman Salah                |
+  |                               |Omar Tarek                       |
 </div>
 
 
@@ -29,8 +29,8 @@ if the job has already assigned to the job, we won't add its profit
 finally,we return 
 
 
+<img src="illustrative%20photos/illustrative2.png">
 
-![alt text](https://github.com/AbdelrahmanSalah211/Algorithm-Project/tree/master/illustrative%20photos/illustrative1.png)
 
 
 
@@ -39,3 +39,9 @@ finally,we return
 ### Second Problem
 You are given a list of N jobs with their start time, end time, and the profit you can earn by doing that job. Your task is to find the maximum profit you can earn
 by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a job that ends at time X, you will be able to start another job that starts at time X.
+
+<img src="illustrative%20photos/illustrative1.png">
+
+
+
+
