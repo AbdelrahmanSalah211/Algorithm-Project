@@ -36,8 +36,9 @@ We apply Greedy Approach in this problem:
 
 
 <div align="center">
-  <img src="illustrative%20photos/illustrative2.png">
-  Fig.1 shows how jobs are assigned to slots
+  <img src="illustrative%20photos/illustrative1.png" width="700">
+  
+  Fig.1 Shows an example of how jobs are assigned to slots
  </div>
 
 ### Second Problem
@@ -45,9 +46,9 @@ You are given a list of N jobs with their start time, end time, and the profit y
 by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a job that ends at time X, you will be able to start another job that starts at time X.
 
 <div align="center">
-  <img src="illustrative%20photos/illustrative1.png">
+  <img src="illustrative%20photos/illustrative2.png">
   
-  Fig.2 shows a visualization example for jobs starting time and ending time and their overlapping
+  Fig.2 Shows a visualization example for jobs starting time and ending time and their overlapping
 </div>
 
 #### Solution:
