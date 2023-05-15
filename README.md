@@ -37,7 +37,7 @@ We apply Greedy Approach in this problem:
 
 <div align="center">
   <img src="illustrative%20photos/illustrative2.png">
-  fig.1 shows how jobs are assigned to slots
+  Fig.1 shows how jobs are assigned to slots
  </div>
 
 ### Second Problem
@@ -47,7 +47,7 @@ by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a 
 <div align="center">
   <img src="illustrative%20photos/illustrative1.png">
   
-  fig.2 shows a visualization example for jobs starting time and ending time and their overlapping
+  Fig.2 shows a visualization example for jobs starting time and ending time and their overlapping
 </div>
 
 #### Solution:
