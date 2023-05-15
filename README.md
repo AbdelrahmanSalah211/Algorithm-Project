@@ -24,7 +24,7 @@ with max profit we need to sort data based on profit which is the third index in
 index by 1 if the time is free if the time is busy, we don't assign the index then we iterate on every empty job to schedule we assign 1 to evey empty job then we
 add its profit to the latest profit if the job has already assigned to the job, we won't add its profit finally,we return max profit
 
-We apply Greedy Approach in this problem:
+We apply Greedy Approach in this problem,
 
 1. Sort the jobs according to profit in descending order which is the third index in each tuple.
 2. Create an array of zeros.
@@ -53,7 +53,7 @@ by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a 
 
 #### Solution:
 
-We apply Dynamic Programmnig Approach in this problem:
+We apply Dynamic Programmnig Approach in this problem,
 
 1. Sort the array by the start time in an ascending order.
 2. Create an array which will contain the max profit of each step and the previous ones.
