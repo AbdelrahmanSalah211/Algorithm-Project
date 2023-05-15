@@ -26,12 +26,12 @@ add its profit to the latest profit if the job has already assigned to the job, 
 
 We apply Greedy Approach in this problem:
 
-1. sort the jobs according to profit in descending order which is the third index in each tuple.
-2. create an array of zeros.
-3. reasignning every index by 1 if the time slot is free otherwise we do not assign the index.
-4. iterate on every empty to job schedule and assign 1 to every empty job.
-5. add its profit to latest profit if the job has already assigned to job slot otherwise we do not add its profit.
-6. return max profit.
+1. Sort the jobs according to profit in descending order which is the third index in each tuple.
+2. Create an array of zeros.
+3. Reasignning every index by 1 if the time slot is free otherwise we do not assign the index.
+4. Iterate on every empty to job schedule and assign 1 to every empty job.
+5. Add its profit to latest profit if the job has already assigned to job slot otherwise we do not add its profit.
+6. Return max profit.
 
 
 
@@ -54,11 +54,12 @@ by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a 
 
 We apply Dynamic Programmnig Approach in this problem:
 
-1. sort the array by the start time in an ascending order
-2. create an array which will contain the optimal profit of each step and the previous ones
-3. create TreeMap that will take start time (Key) and index of that starting time (value) and store them in ascending order according to the value of key
-4. We are looking for the next non overlapping job index in other words we need the next start time which is greater than or equal the end of current job we are looking for the lowest Key in startTimeIndex which is greater than or equal to the current end time then we get the Value of this key if no key is found then it will = the length of the job array
-5. we check which profit is greater (the previous profit or the current profit with the profit of the next non overlapping )and save that profit
-6. then we put the current start time in the startimeindex to begin the for loop again with the lower index
+1. Sort the array by the start time in an ascending order.
+2. Create an array which will contain the max profit of each step and the previous ones.
+3. Create TreeMap that will take start time (Key) and index of that starting time (value) in the job array and store them in ascending order according to the value of key.
+4. Look for the next non overlapping job index where the next start time >= the end of current job we are looking for the lowest Key in startTimeIndex which is greater than or equal to the current end time then we get the Value of this key if no key is found then it will = the length of the job array.
+5. Check which profit is greater (the previous profit or the current profit along with the profit of the next non overlapping) and save that in the profit array.
+6. Put the current start time in the TreeMap (starTimeIndex) to begin with it the next iteration of the loop again with the lower index.
+7. Return the maximum profit that can be obtained from the jobs that is stored in the first index in the profit array.
 
 
