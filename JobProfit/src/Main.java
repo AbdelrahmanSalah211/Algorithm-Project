@@ -2,7 +2,20 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
+         Scanner input = new Scanner(System.in);
+        int numberOfJob = input.nextInt();
+        int [][] job =new int [numberOfJob][3];
+        for(int i=0;i<job.length;i++){
+            int jobNO=i+1;
+            System.out.print("enter job "+jobNO+" details (Starttime Endtime Profit) ");
+            for(int j=0;j<job[0].length;j++){
+                job[i][j] = input.nextInt();
+            }
+            System.out.println();
+        }
+        int optimalProfit = jobSchedulingProfit(job);
+        System.out.println("Max profit we can get is "+optimalProfit);
+
     }
     public static int jobSchedulingProfit(int [][] job){
 
