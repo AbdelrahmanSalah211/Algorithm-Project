@@ -36,7 +36,7 @@ by picking up some (or all) jobs, ensuring no two jobs overlap. If you choose a 
 <div align="center">
   <img src="illustrative%20photos/illustrative1.png">
   
-  fig.2 shows a visualization for jobs starting time and ending time and their overlapping
+  fig.2 shows a visualization example for jobs starting time and ending time and their overlapping
 </div>
 
 #### Solution:
