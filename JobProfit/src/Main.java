@@ -2,18 +2,25 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-         Scanner input = new Scanner(System.in);
+        //we will create an object of class scanner to take input from the user
+        Scanner input = new Scanner(System.in);
+        //determining number of jobs that will be entered
+        System.out.println("Enter number of jobs");
         int numberOfJob = input.nextInt();
+        //creating a 2D array of dimension Nojobs*3
         int [][] job =new int [numberOfJob][3];
-        for(int i=0;i<job.length;i++){
+        //iterate for each job to take it's data
+        for(int i=0;i<job.length;i++){ 
             int jobNO=i+1;
-            System.out.print("enter job "+jobNO+" details (Starttime Endtime Profit) ");
+            System.out.print("enter job "+jobNO+" attributes in the form of \"Starttime Endtime Profit\" ");
+            //iterate through each job to put it's attribute in the inner array
             for(int j=0;j<job[0].length;j++){
                 job[i][j] = input.nextInt();
             }
-            System.out.println();
         }
+        //Calling the method and passing the array to it 
         int optimalProfit = jobSchedulingProfit(job);
+        //Printing the Maximum profit 
         System.out.println("Max profit we can get is "+optimalProfit);
 
     }
