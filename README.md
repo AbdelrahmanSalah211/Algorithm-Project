@@ -22,7 +22,7 @@ be given in the form (Jobid, Deadline, Profit) associated with that Job.
 to solve this problem we think to apply greedy algorithm, to do this we have some steps first of all we need to sort data by profit, because we intersted in job
 with max profit we need to sort data based on profit which is the third index in in each tuple the main idea is to creat an array of zeros. then we reassign evry
 index by 1 if the time is free if the time is busy, we don't assign the index then we iterate on every empty job to schedule we assign 1 to evey empty job then we
-add its profit to the latest profit if the job has already assigned to the job, we won't add its profit finally,we return 
+add its profit to the latest profit if the job has already assigned to the job, we won't add its profit finally,we return max profit
 
 <div align="center">
   <img src="illustrative%20photos/illustrative2.png">
