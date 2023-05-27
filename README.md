@@ -6,7 +6,7 @@
   
   |[First Problem](#first-problem)        |[Second Problem](#second-problem)                  |
   |:--------------------------------------|:--------------------------------------------------|
-  |[Ragab Hassan](github.com/RagabHassan1)|[Samer Adel]                                       |
+  |[Ragab Hassan](github.com/RagabHassan1)|[Samer Adel](github.com/Sameradel11)               |
   |[Aya Mohamed](github.com/Ayuelasqulany)|[Abdelrahman Salah](github.com/AbdelrahmanSalah211)|
   |                                       |[Omar Tarek](github.com/omarharidy10434)           |
 </div>
