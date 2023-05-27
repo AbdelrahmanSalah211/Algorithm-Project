@@ -4,11 +4,11 @@
   
   ## Contributers
   
-  |[First Problem](#first-problem)|[Second Problem](#second-problem)|
-  |:------------------------------|:--------------------------------|
-  |Ragab Hassan                   |Samer Adel                       |
-  |Aya Mohamed                    |Abdelrahman Salah                |
-  |                               |Omar Tarek                       |
+  |[First Problem](#first-problem)        |[Second Problem](#second-problem)                  |
+  |:--------------------------------------|:--------------------------------------------------|
+  |[Ragab Hassan](github.com/RagabHassan1)|[Samer Adel]                                       |
+  |[Aya Mohamed](github.com/Ayuelasqulany)|[Abdelrahman Salah](github.com/AbdelrahmanSalah211)|
+  |                                       |[Omar Tarek](github.com/omarharidy10434)           |
 </div>
 
 
